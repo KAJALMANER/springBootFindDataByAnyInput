@@ -36,4 +36,8 @@ public class ProductController {
     public String byeWorld(){
     	return "bye bye kajal Maner!!!";
     }
+    @GetMapping("/hello")
+    public String helloWorld(){
+    	return "hello bye kajal Maner!!!";
+    }
 }
